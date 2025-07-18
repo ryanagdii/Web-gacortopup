@@ -1,7 +1,7 @@
 <?php
 include 'db/koneksi.php';
 
-$midtransServerKey = 'SB-Mid-server-BDbJ5IBhtbhqR3eirbNUxlJy'; 
+$midtransServerKey = ''; // MIDTRANS SERVER KEY
 $apiUrl = 'https://api.sandbox.midtrans.com/v2/';
 
 
