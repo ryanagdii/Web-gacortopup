@@ -2,7 +2,7 @@
 include "../db/koneksi.php";
 require_once 'midtrans/Midtrans.php';
 
-\Midtrans\Config::$serverKey = 'SB-Mid-server-BDbJ5IBhtbhqR3eirbNUxlJy';
+\Midtrans\Config::$serverKey = ''; // GANTI INI
 \Midtrans\Config::$is3ds = true;
 \Midtrans\Config::$isSanitized = true;
 
