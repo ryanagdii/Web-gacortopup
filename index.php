@@ -753,7 +753,7 @@
 
   <script>
     function openWhatsApp() {
-      const phoneNumber = "62895611471425";
+      const phoneNumber = "123123";
       const message = encodeURIComponent("Halo min, saya ingin bertanya mengenai layanan topup.");
       const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
       window.open(whatsappUrl, "_blank");
