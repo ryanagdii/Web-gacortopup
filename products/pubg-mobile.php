@@ -340,10 +340,10 @@
     <script src="https://kit.fontawesome.com/095df3b031.js" crossorigin="anonymous"></script>
     <script src="../assets/js/main.js"></script>
     <script type="text/javascript" src="https://app.sandbox.midtrans.com/snap/snap.js"
-        data-client-key="SB-Mid-client-hGOpKX8IfGH2vJ3V"></script>
+        data-client-key=""></script> <!-- MIDTRANS CLIENT KEY -->
     <script>
         function openWhatsApp() {
-            const phoneNumber = "62895611471425";
+            const phoneNumber = "123123";
             const message = encodeURIComponent("Halo min, saya ingin bertanya mengenai layanan topup.");
             const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
             window.open(whatsappUrl, "_blank");
