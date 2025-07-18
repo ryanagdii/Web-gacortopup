@@ -1,8 +1,8 @@
 <?php
 require_once dirname(__FILE__) . '/midtrans/Midtrans.php';
 
-\Midtrans\Config::$serverKey = 'SB-Mid-server-BDbJ5IBhtbhqR3eirbNUxlJy';
-\Midtrans\Config::$clientKey = 'SB-Mid-client-hGOpKX8IfGH2vJ3V';
+\Midtrans\Config::$serverKey = ''; // MIDTRANS SERVER KEY
+\Midtrans\Config::$clientKey = ''; // MIDTRANS CLIENT KEY
 \Midtrans\Config::$isProduction = false;
 
 include "../db/koneksi.php";
